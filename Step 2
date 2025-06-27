@@ -1,0 +1,17 @@
+import markovify
+
+text = """
+Artificial intelligence is a field of computer science that focuses on creating intelligent machines.
+It has become an essential part of the technology industry. Research associated with artificial intelligence is highly technical and specialized.
+The core problems of artificial intelligence include programming computers for certain traits such as knowledge, reasoning, problem-solving, perception, learning, planning, and the ability to manipulate and move objects.
+Approaches include statistical methods, computational intelligence, and traditional symbolic AI.
+Many tools are used in AI, including versions of search and mathematical optimization, logic, and methods based on probability and economics.
+The AI field draws upon computer science, information engineering, mathematics, psychology, linguistics, philosophy, and many others.
+The field was founded on the claim that human intelligence can be so precisely described that a machine can be made to simulate it.
+AI research has been divided into subfields that often fail to communicate with each other.
+These subfields are based on technical considerations, such as particular goals (e.g., robotics or machine learning), the use of particular tools (logic or neural networks), or deep philosophical differences.
+Subfields have also been divided by differences in the application domain.
+AI applications include advanced web search engines (e.g., Google), recommendation systems (used by YouTube, Amazon, and Netflix), understanding human speech (such as Siri and Alexa), self-driving cars (e.g., Tesla), and competing at the highest level in strategic game systems.
+"""
+
+text_model = markovify.Text(text)
